@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Character Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Elden Ring Character Creator</h1>
+    </header>
+    <main>
+        <section id="character-creation">
+            <h2>Create Your Character</h2>
+            <!-- Character creation form -->
+            <form id="creation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="class">Class:</label>
+                <select id="class" name="class">
+                    <option value="warrior">Hero</option>
+                    <option value="mage">Bandit</option>
+                    <option value="rogue">Warrior</option>
+                    <option value="rogue">Prisoner</option>
+                    <option value="rogue">Confessor</option>
+                    <option value="rogue">Wretch</option>
+                    <option value="rogue">Vagabond</option>
+                    <option value="rogue">Prophet</option>
+                    <option value="rogue">Samurai</option>
+                    <!-- Add more classes as needed -->
+                </select>
+                
+                <label for="background">Background:</label>
+                <textarea id="background" name="background" rows="4"></textarea>
+                
+                <button type="submit">Create Character</button>
+            </form>
+        </section>
+        <section id="lore-insights">
+            <h2>Beginner Lore Insights</h2>
+            <div id="lore-content">
+                <!-- Lore insights will be displayed here -->
+            </div>
+        </section>
+
+        <body>
+            <header>
+                <h1>Boss Fight Showcase</h1>
+            </header>
+            <main>
+                <div class="video-container">
+                    <video id="boss-fight-video" controls>
+                        <source src="ELDEN RING - Story Trailer (2).mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </main>
+    <script src="app.js"></script>
+</body>
+</html>
